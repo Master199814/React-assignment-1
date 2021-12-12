@@ -1,1 +1,121 @@
+.subdiv
+{
+   width:99vw;
+   height:33vh;
 
+}
+@media screen and (min-width:1025px)
+{
+    .first-div
+    {
+        width:48%;
+        height:98%;
+        background-color:orange;
+        display: inline-block;
+        margin:5px;
+
+
+    }
+    .second-div{
+
+        height:98%;
+        width:98%;
+        background-color: red;
+        margin:5px;
+
+
+    }
+    .third-div
+    {
+        height:100%;
+        width:30%;
+        margin:5px;
+        background-color: purple;
+        display:inline-block;
+    }
+
+}
+
+
+
+@media screen and (max-width:1024px)
+{
+    .first-div
+    {
+        width:48%;
+        height:98%;
+        background-color:orange;
+        display: inline-block;
+        margin:5px;
+
+
+    }
+    .second-div{
+
+        height:98%;
+        width:98%;
+        background-color: red;
+        margin:5px;
+
+
+    }
+    .third-div
+    {
+        height:100%;
+        width:30%;
+        margin:5px;
+        
+        background-color: purple;
+        display: inline-block;
+    }
+
+}
+
+ 
+@media  screen and (max-width:768px)
+{
+    .first-div
+    {
+        width:45%;
+        height:98%;
+        background-color:orange;
+        display: inline-block;
+        margin:5px;
+
+
+    }
+    .second-div{
+
+        height:98%;
+        width:98%;
+        background-color: red;
+        margin:5px;
+
+
+    }
+    .third-div
+    {
+        height:50%;
+        width:98%;
+        margin:5px;
+        background-color: purple;
+        margin:5px;
+    }
+
+}
+@media screen and (max-width:320px)
+{
+    .first-div
+    {
+        width:100%;
+        height:44%;
+        background-color:orange;
+        display: inline-block;
+        margin:5px;
+
+
+    }
+
+}
+ 
+    

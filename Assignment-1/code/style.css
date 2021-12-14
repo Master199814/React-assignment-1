@@ -1,1 +1,120 @@
+.subdiv
+{
+   width:99vw;
+   height:33vh;
 
+}
+@media screen and (min-width:1025px)
+{
+    .first-div
+    {
+        width:48%;
+        height:98%;
+        background-color:orange;
+        display: inline-block;
+        margin:1%;
+
+
+    }
+    .second-div{
+
+        height:98%;
+        width:98%;
+        background-color: red;
+        margin:1%;
+
+
+    }
+    .third-div
+    {
+        height:100%;
+        width:31%;
+        margin:1%;
+        background-color: purple;
+        display:inline-block;
+    }
+
+}
+
+
+
+@media screen and (max-width:1024px)
+{
+    .first-div
+    {
+        width:48%;
+        height:98%;
+        background-color:orange;
+        display: inline-block;
+        margin:1%;
+
+
+    }
+    .second-div{
+
+        height:98%;
+        width:98%;
+        background-color: red;
+        margin:1%;
+
+
+    }
+    .third-div
+    {
+        height:100%;
+        width:31%;
+        margin:1%;
+        
+        background-color: purple;
+        display: inline-block;
+    }
+
+}
+
+ 
+@media  screen and (max-width:768px)
+{
+    .first-div
+    {
+        width:48%;
+        height:98%;
+        background-color:orange;
+        display: inline-block;
+        margin:1%;
+
+
+    }
+    .second-div{
+
+        height:98%;
+        width:98%;
+        background-color: red;
+        margin:1%;
+
+
+    }
+    .third-div
+    {
+        height:32%;
+        width:98%;
+        margin:1%;
+        background-color: purple;
+    }
+
+}
+@media screen and (max-width:320px)
+{
+    .first-div
+    {
+        width:98%;
+        height:44%;
+        background-color:orange;
+        display: inline-block;
+        margin:1%;
+
+
+    }
+
+}
+ 
+    

@@ -12,9 +12,55 @@
 </head>
 <body>
     <div id="root"></div>
-    <script type="text/babel">
-//React Code here
- ReactDOM.render(<div></div>,document.getElementById('root'));
+    <script type="text/babel" >
+     var navReactElement=React.createElement(
+      "div",
+      {class:"maindiv"},
+    React.createElement(
+      'div',
+      {class:"subdiv"},
+      React.createElement(
+        'div',
+        {class:"first-div"}
+      ),
+      React.createElement(
+        'div',
+        {class:"first-div"}
+      )
+      
+     
+    ),
+    React.createElement(
+      'div',
+      {class:"subdiv"},
+      React.createElement(
+        'div',
+        {class:"second-div"}
+      )
+    ),
+    React.createElement(
+      'div',
+      {class:"subdiv"},
+      React.createElement(
+        'div',
+        {class:"third-div"}
+      ),
+      React.createElement(
+        'div',
+        {class:"third-div"}
+      ),
+      React.createElement(
+        'div',
+        {class:"third-div"}
+      )
+
+
+      
+),
+
+)
+    ReactDOM.render(navReactElement,document.getElementById('root'));
+    
 
 </script>
 <!--
@@ -27,5 +73,6 @@
      You can also use React without JSX, in which case you can remove Babel:
      https://reactjs.org/docs/react-without-jsx.html
    -->
+
 </body>
 </html>
